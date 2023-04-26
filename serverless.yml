@@ -1,0 +1,23 @@
+service: aws-node-http-api-project
+frameworkVersion: "3"
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+
+functions:
+  todoList:
+    handler: index.todoList
+    events:
+      - httpApi:
+          path: /
+          method: get
+  todo:
+    handler: index.todo
+    events:
+      - httpApi:
+          path: /id
+          method: get
+
+plugins:
+  - serverless-offline
