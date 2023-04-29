@@ -1,21 +1,5 @@
 # aws-node-http-api-project
 
-use this profile to deploy
-run devProfile to set $AWS_PROFILE with current credentials
-
-Access key ID,Secret access key
-AKIAU37AJMQ7ZZ3Z4DRS,sfsLu3C5xfz2z9SRmI5x5R2dnIWAYTkH3G8igE5c
-
-or 
-slsAdmin
-a0SB002{
-
-or 
-sls Admin profile
-  AKIAU37AJMQ746GWKXZD
-  AB7feA5jnggWRm9cnG7veFWsVUDSO9fV7gfC7rPs
-
-  then run export AWS_PROFILE="slsAdmin"
 
 <!--
 title: 'AWS Simple HTTP Endpoint example in NodeJS'
